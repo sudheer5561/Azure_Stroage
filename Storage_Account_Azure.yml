@@ -1,0 +1,16 @@
+---
+# Create or update a template deployment based on uris using parameter and template links
+
+- hosts: localhost
+  
+  tasks:
+  - name: create an account
+    azure_rm_storageaccount:
+      resource_group: AZUREDEVOPSDEMO
+      name: clh0002
+      type: Standard_RAGRS
+      tags:
+      testing: testing
+      delete: on-exit
+
+...
