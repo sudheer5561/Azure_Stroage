@@ -9,8 +9,4 @@
       resource_group: AZUREDEVOPSDEMO
       name: clh0002
       type: Standard_RAGRS
-      tags:
-      testing: testing
-      delete: on-exit
-
 ...
